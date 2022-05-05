@@ -1,4 +1,42 @@
-.header{
+.header {
     display: flex;
-    background-color: rgb(50, 167, 145) ;
+    background-color: rgb(50, 167, 145);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans'
+}
+
+img {
+    order: -1;
+    width: 50px;
+    margin-left: 2px;
+}
+
+.trybewarts-login {
+    display: flex;
+}
+
+form {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border-radius: 8px;
+    border: none;
+    width: 31%;
+
+}
+
+button {
+    border-radius: 8px;
+    width: 31%;
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+    cursor: pointer;
 }
