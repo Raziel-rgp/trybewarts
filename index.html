@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer ></script>
+    <script src="script.js" defer></script>
     <title>trybewarts</title>
 </head>
 
 <body>
-    <header class="header ">        
-        <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="logo">
+    <header class="header ">
+        <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" id="img" alt="logo">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form action="" class="trybewarts-login">
             <input type="email" name="email" placeholder="Email" id="email">
@@ -23,6 +23,66 @@
 
     <main>
         <form action="" id="evaluation-form">
+            <h2 id="formulario">Formulário de Avaliação</h2>
+            <img src="images/trybewarts-colored.svg" alt="logo" id="trybewarts-forms-logo">
+            <section id="nome">
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+            </section>
+            <section id="email">
+                <input type="text" id="input-email" placeholder="Email"> Casa:
+                <select id="house">
+                    <option id="gitnoria-house" text="Gitnória" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" text="Reactpuff" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" text="Corvinode" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" text="Pytherina" value="Pytherina">Pytherina</option>
+                </select>
+            </section>
+            <hr>
+
+            <section id="familia">
+                <p id="label-family">Qual sua família?</p>
+                <label id="f">
+                    <input id="input" type="radio" name="family" value="Frontend">
+                    <span style="margin-left: -23px;"> Família Frontend</span>
+                </label>
+                <label id="f">
+                    <input id="input" type="radio" name="family" value="Backend">
+                    <span style="margin-left: -23px;"> Família Backend</span>
+                </label>
+                <label id="f">
+                    <input id="input" type="radio" name="family" value="FullStack">
+                    <span style="margin-left: -23px;"> Família FullStack</span>
+                </label>
+            </section>
+            <section id="check" >
+                <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p> 
+                <label id="g">
+                    <input type="checkbox" value="HoFs">
+                    <span style="margin-left: -10px;">HoFs </span>
+                </label>
+                <label id="g">
+                    <input type="checkbox" value="Jest">
+                    <span style="margin-left: -10px;">Jest </span>
+                </label>
+                <label id="g">
+                    <input type="checkbox" value="Promises">
+                    <span style="margin-left: -10px;">Promises </span>
+                </label>
+                <label id="g">
+                    <input type="checkbox" value="React">
+                    <span style="margin-left: -10px;">React </span>
+                </label>
+                <label id="g">
+                    <input type="checkbox" value="SQL">
+                    <span style="margin-left: -10px;">SQL </span>
+                </label>
+                <label id="g">
+                    <input type="checkbox" value="Python">
+                    <span style="margin-left: -10px;">Python </span>
+                </label>                
+            </section>
+            <hr>
 
         </form>
     </main>
