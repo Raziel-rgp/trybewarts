@@ -44,11 +44,11 @@ button {
   cursor: pointer;
 }
 
-main{
+main {
   display: flex;
 }
 
-#evaluation-form{
+#evaluation-form {
   display: flex;
   width: 675px;
 }
