@@ -1,0 +1,27 @@
+
+> sd-0x-project-trybewarts-rubric@1.0.0 lint
+> eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx
+
+
+D:\warts\sd-022-b-project-trybewarts\script.js
+   1:9   error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   2:20  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   3:52  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   4:56  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   5:56  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   6:37  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   7:43  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   8:65  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+   9:47  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  10:65  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  11:57  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  12:72  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  13:30  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  14:48  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  15:7   error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  16:3   error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+  17:10  error  EditorConfig: Expected linebreaks to be 'LF' but found 'CRLF'  editorconfig/editorconfig
+
+✖ 17 problems (17 errors, 0 warnings)
+  17 errors and 0 warnings potentially fixable with the `--fix` option.
+
