@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  padding: 0 15px;
+}
+
+#img {
+  order: -1;
+  width: 65px;
+  margin-left: 2px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+form {
+  order: 2;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  width: 31%;
+}
+
+button {
+  border-radius: 8px;
+  width: 31%;
+  color: white;
+  background-color: darkslateblue;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+  height: 515px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-left: 120px;
+  height: 500px;
+  justify-content: flex-start;
+}
+
+#trybewarts-forms-logo {
+  position: absolute;
+  margin-left: 720px;
+  height: 500px;
+}
+
+#formulario {
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+}
+
+#input-name , #input-lastname , #input-email {
+  padding: 8px;
+  width: 240px;
+  outline: 0;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+#house {
+  border-radius: 5px;
+  padding: 6px;
+  width: 225px;
+}
+
+hr {
+  margin-top: 13px;
+}
+
+#familia {
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+}
+
+#f {
+  margin-left: -20px;
+  padding: 5px;
+}
+
+#label-family {
+  margin-left: 5px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+#check {
+  width: 300px;
+  height: 60px;
+  margin-left: 240px;
+  margin-top: -65px;
+}
+
+#label-content {
+  width: 350px;
+  margin-top: -53px;
+  height: 50px;
+}
+
+#g {
+  display: inline-block;
+  margin-top: 9px;
+  padding: 0 5px;
+  margin-left: -15px;
+  width: 100px;
+}
+
+#checkbox {
+  display: inline-block;
+  margin-left: -2px;
+  width: 320px;
+  height: 55px;
+}
+
+#label-rate {
+  display: inline-block;
+  height: 20px;
+}
+
+.input {
+  border: solid 2px rgb(172, 19, 192);
+  width: 30px;
+}
+
+textarea {
+  resize: none;
+  outline: 0;
+  border: solid 2px darkslateblue;
+  border-radius: 5px;
+}
+
+#agreement {
+  margin-left: -90px;
+}
+
+#submit-btn {
+  width: 550px;
+  padding: 7px;
+  margin-top: 13px;
+  font-size: larger;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  font-size: larger;
+}
