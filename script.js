@@ -30,3 +30,15 @@ function check() {
   });
 }
 check();
+
+function contador() {
+  const text = document.getElementsByTagName('textarea')[0];
+  const cont = document.getElementById('counter');
+  text.addEventListener('keyup', () => {
+    const valores = text.value.length;
+    cont.innerText = (500 - valores);
+    // console.log('valores: ', text.value.length );
+    // console.log('contador: ', 500-valores);
+  });
+}
+contador();
