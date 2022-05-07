@@ -1,5 +1,5 @@
 * {
-  margin: 0px;  
+  margin: 0;
 }
 
 .header {
@@ -46,7 +46,7 @@ button {
 
 main {
   display: flex;
-  background-color:rgb(231, 231, 231);
+  background-color: rgb(231, 231, 231);
   height: 500px;
 }
 
@@ -57,53 +57,49 @@ main {
   border: solid red 2px;
   margin-left: 120px;
   height: 480px;
-  justify-content: flex-start; 
-  
+  justify-content: flex-start;
 }
 
 #trybewarts-forms-logo {
   position: absolute;
   margin-left: 720px;
-  height: 500px; 
-  
-}
-
-#nome, #email {
-  display: inline;
-  padding: 5px;
-  
+  height: 500px;
 }
 
 #formulario {
-  
   padding: 10px;
   text-align: center;
   font-size: large;
   font-weight: 800;
 }
 
-#input-name, #input-lastname, #input-email{
-    padding: 8px;
-    width: 250px;
+#input-name , #input-lastname , #input-email {
+  padding: 8px;
+  width: 240px;
+  outline: 0;
+  margin-bottom: 8px;
+  margin-left: 10px;
 }
+
 #house {
   border-radius: 5px;
-    padding: 8px;
-    width: 225px;
+  padding: 6px;
+  width: 225px;
 }
+
 hr {
   margin-top: 13px;
 }
 
 #familia {
-  display: flex;  
+  display: flex;
   width: 170px;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
-#f{
- margin-left: -20px; 
- padding: 5px;
+#f {
+  margin-left: -20px;
+  padding: 5px;
 }
 
 #label-family {
@@ -111,20 +107,21 @@ hr {
   margin-bottom: 6px;
   margin-top: 15px;
 }
-#check {  
+
+#check {
   width: 300px;
   height: 60px;
   margin-left: 240px;
   margin-top: -65px;
 }
 
-#label-content{
-  width: 350px;  
+#label-content {
+  width: 350px;
   margin-top: -53px;
-  height: 50px; 
+  height: 50px;
 }
 
-#g{
+#g {
   display: inline-block;
   margin-top: 9px;
   padding: 0 5px;
@@ -141,11 +138,11 @@ hr {
 
 #label {
   display: inline-block;
-  border: solid 2px blue;
+  border: solid 2px rgb(27, 219, 20);
   height: 20px;
 }
 
 .input {
-  border: solid 2px rgb(0, 255, 21);
+  border: solid 2px rgb(172, 19, 192);
   margin-left: -10px;
 }
