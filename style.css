@@ -79,7 +79,7 @@ main {
   padding: 10px;
   text-align: center;
   font-size: large;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 #input-name, #input-lastname, #input-email{
@@ -111,18 +111,18 @@ hr {
   margin-bottom: 6px;
   margin-top: 15px;
 }
-#check {
-  border: solid 2px yellow;
-  
+#check {  
+  width: 300px;
+  height: 60px;
+  margin-left: 240px;
+  margin-top: -65px;
 }
 
 #label-content{
-  width: 350px;
-  margin-left: 190px;
-  margin-top: -113px;
-  height: 110px;
+  width: 350px;  
+  margin-top: -53px;
+  height: 50px; 
 }
-
 
 #g{
   display: inline-block;
@@ -132,9 +132,20 @@ hr {
   width: 100px;
 }
 
-#checkbox{  
+#checkbox {
   display: inline-block;
   margin-left: -2px;
   width: 320px;
   height: 55px;
+}
+
+#label {
+  display: inline-block;
+  border: solid 2px blue;
+  height: 20px;
+}
+
+.input {
+  border: solid 2px rgb(0, 255, 21);
+  margin-left: -10px;
 }
