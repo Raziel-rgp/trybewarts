@@ -1,9 +1,10 @@
-{
+module.exports = {
     "env": {
+        "browser": true,
         "es6": true,
         "node": true
     },
-    "extends": "trybe-fundamentals",
+    "extends": "eslint:recommended",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -14,4 +15,4 @@
     },
     "rules": {
     }
-}
+};
