@@ -5,13 +5,28 @@ function login() {
   const inputSenha = document.getElementById('senha');
   const email = 'tryber@teste.com';
   botao.addEventListener('click', () => {
-  // console.log('tipo input email: ',typeof inputEmail.value);
-  // console.log('email: ',inputEmail.value);
-  // console.log('tipo input senha: ',typeof inputSenha.value);
-  // console.log('senha: ',parseInt(inputSenha.value));
+    // console.log('tipo input email: ',typeof inputEmail.value);
+    // console.log('email: ',inputEmail.value);
+    // console.log('tipo input senha: ',typeof inputSenha.value);
+    // console.log('senha: ',parseInt(inputSenha.value));
     if (inputEmail.value === email && inputSenha.value === '123456') {
       alert('Olá, Tryber!');
     } else alert('Email ou senha inválidos.');
   });
 }
 login();
+
+function check() {
+  const botao = document.getElementById('submit-btn');
+  const checker = document.getElementById('agreement');
+  botao.disabled = true;
+  botao.style.backgroundColor = 'rgb(182, 181, 181)';
+  botao.style.cursor = 'progress';
+  checker.addEventListener('click', () => {
+    // alert('checado')
+    botao.disabled = false;
+    botao.style.backgroundColor = 'darkslateblue';
+    botao.style.cursor = 'pointer';
+  });
+}
+check();
