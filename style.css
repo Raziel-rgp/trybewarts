@@ -39,7 +39,7 @@ input {
   width: 31%;
 }
 
-button {
+#submit {
   border-radius: 8px;
   width: 31%;
   color: white;
@@ -59,7 +59,7 @@ main {
   width: 675px;
   flex-direction: column;
   margin-left: 120px;
-  height: 500px;
+  height: 450px;
   justify-content: flex-start;
 }
 
@@ -160,10 +160,15 @@ textarea {
 }
 
 #submit-btn {
+  border-radius: 8px;
+  color: white;
+  border: none;
   width: 550px;
   padding: 7px;
   margin-top: 13px;
   font-size: larger;
+  background-color: rgb(182, 181, 181);
+  cursor: not-allowed;
 }
 
 footer {
