@@ -64,18 +64,26 @@ const obs = document.getElementById('textarea');
 const botao = document.getElementById('submit-btn');
 const form = document.getElementById('evaluation-form');
 
+function forFamilia() {
+  for (let index = 0; index < familia.length; index += 1) {
+    if (familia[index].checked === true) {
+      valor = familia[index].value;
+    }
+  }
+}
+
+function forMaterias() {
+  for (let index = 0; index < materias.length; index += 1) {
+    if (materias[index].checked === true) {
+      valorMaterias.push(` ${materias[index].value}`);
+    }
+  }
+}
+
 function exibir() {
   botao.addEventListener('click', () => {
-    for (let index = 0; index < familia.length; index += 1) {
-      if (familia[index].checked === true) {
-        valor = familia[index].value;
-      }
-    }
-    for (let index = 0; index < materias.length; index += 1) {
-      if (materias[index].checked === true) {
-        valorMaterias.push(` ${materias[index].value}`);
-      }
-    }
+    forFamilia();
+    forMaterias();
     for (let index = 0; index < avaliacao.length; index += 1) {
       if (avaliacao[index].checked === true) {
         nota = avaliacao[index].value;
@@ -83,15 +91,10 @@ function exibir() {
     }
     while (form.firstChild) { form.removeChild(form.firstChild); }
     const p = document.createElement('p');
-    p.innerText = `Nome: ${nome.value} ${sobrenome.value}\n Email: ${email.value}\n Casa: ${casa.value}\n Família: ${valor} \n Matérias: ${valorMaterias} \n Avaliação: ${nota}\n Observações: ${obs.value}`;
+    p.innerText = `Nome: ${nome.value} ${sobrenome.value}\n Email: ${email.value}
+    Casa: ${casa.value}\n Família: ${valor} \n Matérias: ${valorMaterias} \n Avaliação: ${nota}\n
+    Observações: ${obs.value}`;
     form.append(p);
   });
 }
 exibir();
-
-// function remover() {
-//   const form = document.getElementById('evaluation-form')
-//   // if(form.parentNode){
-//   form.parentNode.removeChild(form)
-//   // }
-// }
